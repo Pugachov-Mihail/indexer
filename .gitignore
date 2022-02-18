@@ -1,0 +1,6 @@
+*.sqlite3
+.idea/
+__pycahe__
+venv/
+/node_modules/*
+/demo_tzbtc/

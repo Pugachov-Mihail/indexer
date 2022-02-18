@@ -1,0 +1,19 @@
+{
+  "name": "taquito-beacon-wallet",
+  "version": "1.0.0",
+  "description": "Tezos dapp with Dipdup and Beacon SDK for hakathon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@airgap/beacon-sdk": "^0.3.0",
+    "@taquito/taquito": "^6.3.1-beta.0",
+    "babel-polyfill": "^6.26.0",
+    "poetry": "^0.4.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
